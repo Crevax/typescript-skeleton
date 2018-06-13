@@ -1,0 +1,18 @@
+{
+  "name": "typescript-starter-kit",
+  "version": "0.0.1",
+  "description": "A base project with all the plumbing for writing a simple app with Typescript",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CJ Davis",
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "typescript": "^2.9.1"
+  }
+}
